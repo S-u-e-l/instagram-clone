@@ -1,0 +1,149 @@
+.container {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.logo {
+  color: white;
+  font-family: "Instagram Sans Script";
+}
+.text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: small;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 1px;
+}
+.like {
+  color: white;
+  font-size: x-large;
+  padding: 20px;
+}
+.like1 {
+  position: relative;
+}
+.text1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: x-small;
+  background-color: red;
+  color: red;
+  border-radius: 50%;
+  padding: 1px;
+}
+.like2 {
+  position: relative;
+}
+.stories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.stories .image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  align-items: center;
+  background-image: linear-gradient(to right, yellow, red, purple);
+  padding: 3px;
+  object-fit: cover;
+}
+.story1 {
+  color: white;
+  text-align: center;
+}
+.story .imge {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.story .imge img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  align-items: center;
+  background-color: grey;
+  padding: 3px;
+  object-fit: cover;
+}
+.imge .bx {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(44, 44, 203);
+  border-radius: 50%;
+  margin-right: 4px;
+  padding: 2px;
+}
+.yourstory {
+  color: grey;
+}
+#posts {
+  margin-top: 30px;
+  color: white;
+  height: 100vh;
+}
+.post {
+  display: flex;
+  align-items: center;
+  position: relative;
+  object-fit: cover;
+  height: 100%;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  margin-left: 10px;
+}
+.profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  justify-content: start;
+  margin-top: 20px;
+}
+.name {
+  color: white;
+  font-size: smaller;
+  margin-left: 5px;
+  position: absolute;
+  top: 0;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.profilename p {
+  font-weight: 900;
+}
+.postaudio {
+  margin-right: 300px;
+}
+.buttons p {
+  font-size: xx-large;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0%;
+  margin-right: 10px;
+}
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
